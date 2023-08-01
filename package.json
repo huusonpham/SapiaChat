@@ -1,0 +1,17 @@
+{
+  "name": "playwright-codecepjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "happy": "npx playwright test --grep @Happy",
+    "unhappy": "npx playwright test --grep @Unhappy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2"
+  }
+}
